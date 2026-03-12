@@ -1,0 +1,107 @@
+body {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: white;
+}
+
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 600px;
+  padding: 150px 50px;
+}
+
+.login-input {
+  height: 50px;
+  padding: 0 12px;
+  font-size: 16px;
+  border-radius: 13px
+  
+
+}
+
+.login-button {
+  height: 40px;
+  padding: 0 12px;
+  font-size: 16px;
+  border-radius: 30px;
+  background-color: #1877F2;
+  color:white;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #166fe5; 
+}
+
+
+.login-input:hover,
+.login-input:focus {
+  border-color: #999;            
+  box-shadow: 0 0 0 1px #999;    
+  outline: none;                 
+}
+
+
+.links {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px;   
+  padding-left: 290px;  
+  margin-top: -140px;  /* pulls it up */     
+  padding-left: 50px;
+  width: 600px;
+}
+
+
+footer {
+  padding-left: 330px;
+}
+
+.forgot-password {
+  background-color: white;       
+  color: black;                
+  display: inline-block;        
+  padding: 6px 12px;             
+  border-radius: 30px;            
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  font-size: 14px;               
+}
+
+.forgot-password:hover {
+  background-color: #f0f2f5;     
+}
+
+
+.create-account{
+  background-color: white;
+  color: blue;
+  display:inline-block;
+  padding:10px 16px;
+  border-radius: 30px;
+  text-decoration:none;
+  font-weight:bold;
+  text-align:center;
+  border: 1px solid #467abe;
+}
+
+.create-account:hover{
+  background-color: #f0f2f5;
+}
+
+
+h1 {
+  margin-top: 50px;   
+  margin-bottom: 20px; 
+  text-align: center;  
+}
+
+
+
+
+
